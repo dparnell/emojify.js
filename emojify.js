@@ -959,8 +959,8 @@
             },
 
             // Main method
-            run: function () {
-                var el = document.body;
+            run: function (el) {
+                el = el || document.body;
                 // Create array of selected icon sets
                 var selected_sets = [];
 
